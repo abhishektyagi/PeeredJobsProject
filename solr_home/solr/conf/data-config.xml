@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataConfig>
+  <dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/ProtoV1" 
+              user="root" 
+              password="neuro@RD350"/>
+  <document>
+    <entity name="job" 
+            query="select jobid,jobcode,title, owner, industry, category, subcategory, role, state, description from job">
+    </entity>
+  </document>
+</dataConfig>
